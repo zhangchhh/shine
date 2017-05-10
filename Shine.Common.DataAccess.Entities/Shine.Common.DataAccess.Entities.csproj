@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Extensions\IocHelper.cs" />
     <Compile Include="IEntityBase.cs" />
     <Compile Include="OperateStatus.cs" />
     <Compile Include="PagedResults.cs" />

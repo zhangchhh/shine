@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B09F1225-84D6-4413-BED2-2C4FECC3AAB1}</ProjectGuid>
+    <ProjectGuid>{614FB166-0373-416E-9251-9925CD5F226B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Shine.Common.DataAccess.Definition</RootNamespace>
-    <AssemblyName>Shine.Common.DataAccess.Definition</AssemblyName>
+    <RootNamespace>Shine.Common.Business.Implement</RootNamespace>
+    <AssemblyName>Shine.Common.Business.Implement</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -30,7 +30,16 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.Practices.Unity, Version=2.0.414.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Practices.Unity.1.0.0\lib\Microsoft.Practices.Unity.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Configuration, Version=2.0.414.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Practices.Unity.1.0.0\lib\Microsoft.Practices.Unity.Configuration.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -40,15 +49,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IQueryRepository.cs" />
-    <Compile Include="IRepository.cs" />
+    <Compile Include="BusinessLogicFactory.cs" />
+    <Compile Include="EntityBaseLogic.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Shine.Common.Business.Definition\Shine.Common.Business.Definition.csproj">
+      <Project>{de7a6726-647a-4c29-b187-fc37a17e0e7d}</Project>
+      <Name>Shine.Common.Business.Definition</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Shine.Common.DataAccess.Definition\Shine.Common.DataAccess.Definition.csproj">
+      <Project>{b09f1225-84d6-4413-bed2-2c4fecc3aab1}</Project>
+      <Name>Shine.Common.DataAccess.Definition</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Shine.Common.DataAccess.Entities\Shine.Common.DataAccess.Entities.csproj">
       <Project>{7c5674e7-71f0-462e-bdca-bc46ad6f9333}</Project>
       <Name>Shine.Common.DataAccess.Entities</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

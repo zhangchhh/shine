@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shine.Common.DataAccess.Def
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shine.Common.DataAccess.Implement", "Shine.Common.DataAccess.Implement\Shine.Common.DataAccess.Implement.csproj", "{579B1651-8B1D-40F8-9340-7D261F1FC5AF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shine.Common.Business.Definition", "Shine.Common.Business.Definition\Shine.Common.Business.Definition.csproj", "{DE7A6726-647A-4C29-B187-FC37A17E0E7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shine.Common.Business.Implement", "Shine.Common.Business.Implement\Shine.Common.Business.Implement.csproj", "{614FB166-0373-416E-9251-9925CD5F226B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{579B1651-8B1D-40F8-9340-7D261F1FC5AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{579B1651-8B1D-40F8-9340-7D261F1FC5AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{579B1651-8B1D-40F8-9340-7D261F1FC5AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE7A6726-647A-4C29-B187-FC37A17E0E7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE7A6726-647A-4C29-B187-FC37A17E0E7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE7A6726-647A-4C29-B187-FC37A17E0E7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE7A6726-647A-4C29-B187-FC37A17E0E7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{614FB166-0373-416E-9251-9925CD5F226B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{614FB166-0373-416E-9251-9925CD5F226B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{614FB166-0373-416E-9251-9925CD5F226B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{614FB166-0373-416E-9251-9925CD5F226B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

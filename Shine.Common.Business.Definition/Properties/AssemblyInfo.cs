@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // 有关程序集的一般信息由以下
 // 控制。更改这些特性值可修改
 // 与程序集关联的信息。
-[assembly: AssemblyTitle("Shine.Common.DataAccess.Definition")]
-[assembly: AssemblyDescription("used by DataAccess.Definition")]
+[assembly: AssemblyTitle("Shine.Common.Business.Definition")]
+[assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("KingShine")]
-[assembly: AssemblyProduct("Shine.Common.DataAccess.Definition")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("Shine.Common.Business.Definition")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // 如果此项目向 COM 公开，则下列 GUID 用于类型库的 ID
-[assembly: Guid("b09f1225-84d6-4413-bed2-2c4fecc3aab1")]
+[assembly: Guid("de7a6726-647a-4c29-b187-fc37a17e0e7d")]
 
 // 程序集的版本信息由下列四个值组成: 
 //

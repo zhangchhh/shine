@@ -6,9 +6,9 @@ using System.Runtime.InteropServices;
 // 控制。更改这些特性值可修改
 // 与程序集关联的信息。
 [assembly: AssemblyTitle("Shine.Common.DataAccess.Entities")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("for dataAccess.entities")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("shine")]
 [assembly: AssemblyProduct("Shine.Common.DataAccess.Entities")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
